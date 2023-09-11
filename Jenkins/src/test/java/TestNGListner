@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+<listeners>
+   <listener class-name="com.jenkins.Jenkins.TestNGListner1"></listener>
+</listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="com.jenkins.Jenkins.TestNGListner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
